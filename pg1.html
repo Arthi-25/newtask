@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<title>APPLICATION FORM</title>
+</head>
+<h3>01.Application Form</h3>
+<form onsubmit="registration(this)">
+
+<p>
+
+<label for="name"> Name: </label>
+<input type="text" name="name" placeholder= "Enter your name" required><br><br>
+<label for ="email"> Email: </label>
+<input type="email" name="email" placeholder= "Enter your email" id="email" required><br><br>
+</p>
+
+<p>
+
+<label for="gender"> Gender: </label>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female <br><br>
+</p>
+
+<p>
+
+<label for="choose skills"> CHOOSE SKILLS </label><br><br>
+HTML<input type= "checkbox" name="Choose Skills" value="HTML">
+CSS<input type= "checkbox" name="Choose Skills" value="CSS">
+JS<input type= "checkbox" name="Choose Skills" value="JS">
+Bootstrap<input type= "checkbox" name="Choose Skills" value="Bootstrap">
+React<input type= "checkbox" name="Choose Skills" value="React"><br><br>
+</p>
+
+<p>
+
+<label for="job type"> JOB TYPE </label>
+
+  <select name="job type" id="job type">
+    <option><value="fed">FRONT END DEVELOPER</option>
+    <option><value="bed">BACK END DEVELOPER</option>
+    <option><value="fsd">FULL STACK DEVELOPER</option> 
+  </select><br><br>
+</p>
+
+<p>
+
+<label for=browser">Choose your browser from the list : </label>
+<input type="text" name="browser"id="browser" required><br><br>
+ </p>
+<p>
+ <textarea name="summary" id="summary" placeholder="Give a brief summary about you"></textarea><br><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
